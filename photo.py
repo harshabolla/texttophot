@@ -1,10 +1,10 @@
 from PIL import Image, ImageDraw, ImageFont
 
 def text_to_image(text, filename="output.png"):
-    # Create a blank image
+    # Create a blank imagessssss
     img = Image.new('RGB', (400, 100), color=(255, 255, 255))
     d = ImageDraw.Draw(img)
-    # Use a default font
+    # Use a default font 
     font = ImageFont.load_default()
     # Add text to image
     d.text((10, 40), text, fill=(0, 0, 0), font=font)
